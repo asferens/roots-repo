@@ -3,9 +3,9 @@
 # Define accompanying passwords/secrets in group_vars/staging/vault.yml
 
 wordpress_sites:
-  stonesoup.com:
+  teamgreen.nz:
     site_hosts:
-      - 188.166.184.172
+      - 188.166.246.107
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:asferens/roots-repo.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo

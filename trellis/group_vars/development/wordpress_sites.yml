@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  stonesoup.com:
+  teamgreen.nz:
     site_hosts:
-      - stonesoup.dev
+      - teamgreen.nz
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@stonesoup.dev
+    admin_email: admin@teamgreen.nz
     multisite:
       enabled: false
     ssl:
